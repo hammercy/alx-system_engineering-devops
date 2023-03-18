@@ -1,0 +1,1 @@
+This is shell basics  and shell script assignments folder
