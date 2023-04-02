@@ -1,0 +1,11 @@
+#!/bin/bash
+echo '#!/bin/bash' >> 1-hello_you
+echo 'hello $USER' >> 1-hello_you
+chmod u+x 1-hello_you
+
+#this script add /action director to PATH. 
+echo '#!/bin/bash' >> 2-path
+echo 'export PATH=$PATH:/action' >> 2-path
+chmod u+x 2-path
+
+
