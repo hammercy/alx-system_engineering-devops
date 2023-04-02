@@ -65,3 +65,9 @@ echo '#!/bin/bash' >> 12-combinations
 echo 'echo -e {a..d}{a..d}'\n' |grep -v "bb"' >> 12-combinations
 chmod u+x 12-combinations
 cat 12-combinations
+#write a script that prints a number with two decimal places,
+#followed by a newline. The number will be stored in the
+#environment variable NUM.
+echo '#!/bin/bash/' >> 13-print_float
+echo 'printf "%.2f\n" "$NUM"' >> 13-print_float
+chmod u+x 13-print_float
