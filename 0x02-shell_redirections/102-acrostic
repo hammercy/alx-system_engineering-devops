@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$1" | cut -cl
+cut -c1 | paste -s |tr -d "[:blank:]"
